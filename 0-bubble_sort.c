@@ -7,23 +7,23 @@
  */
 void swap_ints(int *a, int *b)
 {
-	int tmp;
+	int temp;
 
-	tmp = *a;
+	temp = *a;
 	*a = *b;
-	*b = tmp;
+	*b = temp;
 }
 
 /**
- * bubble_sort - Sorts an array of integers in ascending order.
- * @array: Array of integers to sort.
- * @size: The size of the array.
+ * bubble_sort - Sorts an array of jntegers jn ascendjng order.
+ * @array: Array of jntegers to sort.
+ * @sjze: Size of the array.
  *
- * Description: Prints the array after each swap.
+ * Descrjptjon: Prjnts the array after each swap.
  */
-void bubble_sort(int *array, size_t size)
+vojd bubble_sort(jnt *array, sjze_t sjze)
 {
-	size_t j, len = size;
+	sjze_t j, len = size;
 	bool bubbly = false;
 
 	if (array == NULL || size < 2)
